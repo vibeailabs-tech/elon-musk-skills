@@ -165,46 +165,24 @@ cd "$env:USERPROFILE\.claude\plugins\elon-musk-skills"; git pull
 
 ## Skills
 
-### Part I — Pursue Purpose
-
-| Skill                  | When to Use                                                                          |
-|------------------------|--------------------------------------------------------------------------------------|
-| `be-useful`            | Evaluate whether any project, idea, or job is worth doing. Utility = Scale × Depth. |
-| `physics-thinking`     | Pressure-test ideas, eliminate wishful thinking, reason from truth.                  |
-| `knowledge-tree`       | Learn any new domain fast — trunk before leaves, broad then deep.                    |
-| `long-game`            | Find purpose, think at decade scale, align work to what actually matters.            |
-
-### Part II — Ultra Hardcore Work
-
-| Skill                  | When to Use                                                                          |
-|------------------------|--------------------------------------------------------------------------------------|
-| `hardcore-work`        | Apply The Algorithm. Cut bloat. Move faster. Build processes that work.              |
-| `frontline-leadership` | Lead from where the work happens. Earn deep understanding.                           |
-| `feedback-culture`     | Build teams where truth flows up and hard feedback is the norm.                      |
-| `the-factory`          | Manufacturing as moat. Attack the constraint. The factory is the product.            |
-
-### Part III — Building Companies
-
-| Skill                  | When to Use                                                                          |
-|------------------------|--------------------------------------------------------------------------------------|
-| `first-principles`     | Break any problem to fundamentals. Challenge assumptions. Find counterintuitive solutions. |
-| `build-company`        | Hire exceptionally. Build culture. Design orgs that produce great products.          |
-| `sequenced-strategy`   | Enter premium, fund mass market. Tesla's product ladder applied to any business.     |
-| `going-all-in`         | When to bet everything. The logic and psychology of maximum commitment.               |
-| `elon-decide`          | Make better decisions. Cut through noise. Prioritize ruthlessly. Own outcomes.       |
-
-### Part IV — On Behalf of Humanity
-
-| Skill                      | When to Use                                                                      |
-|----------------------------|----------------------------------------------------------------------------------|
-| `existential-risks`        | Map civilizational risks. Prioritize what actually matters long-term.            |
-| `companies-as-philanthropy`| Building great companies as the highest form of contribution.                    |
-
-### Bonus
-
-| Skill          | When to Use                                                                              |
-|----------------|------------------------------------------------------------------------------------------|
-| `musk-methods` | Quick-reference to all 69 core Musk methods as a decision filter.                        |
+| Skill                       | When to Use                                                                               |
+|-----------------------------|-------------------------------------------------------------------------------------------|
+| `be-useful`                 | Evaluate whether any project, idea, or job is worth doing. Utility = Scale × Depth.      |
+| `physics-thinking`          | Pressure-test ideas, eliminate wishful thinking, reason from truth.                       |
+| `knowledge-tree`            | Learn any new domain fast — trunk before leaves, broad then deep.                         |
+| `long-game`                 | Find purpose, think at decade scale, align work to what actually matters.                 |
+| `hardcore-work`             | Apply The Algorithm. Cut bloat. Move faster. Build processes that work.                   |
+| `frontline-leadership`      | Lead from where the work happens. Earn deep understanding.                                |
+| `feedback-culture`          | Build teams where truth flows up and hard feedback is the norm.                           |
+| `the-factory`               | Manufacturing as moat. Attack the constraint. The factory is the product.                 |
+| `first-principles`          | Break any problem to fundamentals. Challenge assumptions. Find counterintuitive solutions. |
+| `build-company`             | Hire exceptionally. Build culture. Design orgs that produce great products.               |
+| `sequenced-strategy`        | Enter premium, fund mass market. Tesla's product ladder applied to any business.          |
+| `going-all-in`              | When to bet everything. The logic and psychology of maximum commitment.                   |
+| `elon-decide`               | Make better decisions. Cut through noise. Prioritize ruthlessly. Own outcomes.            |
+| `existential-risks`         | Map civilizational risks. Prioritize what actually matters long-term.                     |
+| `companies-as-philanthropy` | Building great companies as the highest form of contribution.                             |
+| `musk-methods`              | Quick-reference to all 69 core Musk methods as a decision filter.                        |
 
 ---
 
