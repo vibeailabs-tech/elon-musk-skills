@@ -34,53 +34,7 @@ Then register the plugin in Claude Code:
 
 ---
 
-### Method 2 — curl One-Liner (macOS / Linux / WSL)
-
-Download and extract in a single command — no Git required:
-
-```bash
-curl -L https://github.com/vibeailabs-tech/elon-musk-skills/archive/refs/heads/main.tar.gz \
-  | tar -xz --strip-components=1 -C ~/.claude/plugins/elon-musk-skills \
-  --transform 's|^elon-musk-skills-main/||' \
-  2>/dev/null || \
-  (mkdir -p ~/.claude/plugins/elon-musk-skills && \
-   curl -L https://github.com/vibeailabs-tech/elon-musk-skills/archive/refs/heads/main.tar.gz \
-   | tar -xz -C ~/.claude/plugins/elon-musk-skills --strip-components=1)
-```
-
-Or the simpler two-step version:
-
-```bash
-mkdir -p ~/.claude/plugins/elon-musk-skills
-curl -L https://github.com/vibeailabs-tech/elon-musk-skills/archive/refs/heads/main.tar.gz \
-  | tar -xz --strip-components=1 -C ~/.claude/plugins/elon-musk-skills
-```
-
-Then register:
-
-```
-/plugin install ~/.claude/plugins/elon-musk-skills
-```
-
----
-
-### Method 3 — wget (Linux)
-
-```bash
-mkdir -p ~/.claude/plugins/elon-musk-skills
-wget -qO- https://github.com/vibeailabs-tech/elon-musk-skills/archive/refs/heads/main.tar.gz \
-  | tar -xz --strip-components=1 -C ~/.claude/plugins/elon-musk-skills
-```
-
-Then register:
-
-```
-/plugin install ~/.claude/plugins/elon-musk-skills
-```
-
----
-
-### Method 4 — Manual Download (All Platforms, No CLI Required)
+### Method 2 — Manual Download (All Platforms, No CLI Required)
 
 1. Go to: [https://github.com/vibeailabs-tech/elon-musk-skills](https://github.com/vibeailabs-tech/elon-musk-skills)
 2. Click **Code → Download ZIP**
@@ -96,33 +50,7 @@ Then register:
 
 ---
 
-### Method 5 — Windows PowerShell (No WSL)
-
-```powershell
-# Create the plugins directory if it doesn't exist
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\plugins\elon-musk-skills"
-
-# Download and extract
-Invoke-WebRequest -Uri "https://github.com/vibeailabs-tech/elon-musk-skills/archive/refs/heads/main.zip" `
-  -OutFile "$env:TEMP\elon-musk-skills.zip"
-
-Expand-Archive -Path "$env:TEMP\elon-musk-skills.zip" `
-  -DestinationPath "$env:TEMP\elon-musk-skills-extract" -Force
-
-Copy-Item -Recurse -Force `
-  "$env:TEMP\elon-musk-skills-extract\elon-musk-skills-main\*" `
-  "$env:USERPROFILE\.claude\plugins\elon-musk-skills"
-```
-
-Then in Claude Code:
-
-```
-/plugin install ~/.claude/plugins/elon-musk-skills
-```
-
----
-
-### Method 6 — GitHub CLI (`gh`)
+### Method 3 — GitHub CLI (`gh`)
 
 If you have the [GitHub CLI](https://cli.github.com/) installed:
 
