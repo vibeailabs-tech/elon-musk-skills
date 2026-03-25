@@ -1,6 +1,19 @@
-# elon-musk Plugin
+# Elon Musk — Claude Code Skills
 
-Elon Musk's complete philosophy distilled from *The Book of Elon* by Eric Jorgenson — 16 actionable skills across purpose, thinking, work, building, and humanity.
+Claude Code skills based on the mindset, methods, and philosophy of Elon Musk.
+
+## Installation
+Clone the repo locally, then install as a Claude Code plugin:
+
+```bash
+git clone https://github.com/vibeailabs-tech/elon-musk-skills.git ~/.claude/plugins/elon-musk-skills
+```
+
+Then in Claude Code:
+
+```
+/plugin install ~/.claude/plugins/elon-musk-skills
+```
 
 ## Skills
 
