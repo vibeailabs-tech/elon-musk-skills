@@ -67,3 +67,5 @@ Then in Claude Code:
 ## Source
 
 Based on *The Book of Elon: A Guide to Purpose and Success* by Eric Jorgenson (2026).
+
+Built by [Vibe AI Labs](https://github.com/vibeailabs-tech).
